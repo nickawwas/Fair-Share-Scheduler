@@ -1,0 +1,54 @@
+0    [main] INFO  FS  - User A Has 2 Processes:
+7    [main] INFO  FS  - Process Name: P0 => Ready Time: 4, Service Time: 3
+7    [main] INFO  FS  - Process Name: P1 => Ready Time: 1, Service Time: 5
+7    [main] INFO  FS  -  
+7    [main] INFO  FS  - User B Has 1 Processes:
+7    [main] INFO  FS  - Process Name: P2 => Ready Time: 5, Service Time: 6
+8    [main] INFO  FS  -  
+8    [main] INFO  FS  - Fair Share Scheduling Started!
+8    [Thread-0] INFO  FS  - Scheduler Started!
+11   [Thread-1] INFO  FS  - Clock Started!
+11   [Thread-2] INFO  FS  - Time 1000, User A, Process P1 Started!
+4714 [Thread-2] INFO  FS  - Time 5010, User A, Process P1 Paused.
+4739 [Thread-3] INFO  FS  - Time 5030, User A, Process P0 Started!
+5953 [Thread-3] INFO  FS  - Time 6040, User A, Process P0 Paused.
+5965 [Thread-2] INFO  FS  - Time 6050, User A, Process P1 Resumed.
+7063 [Thread-2] INFO  FS  - Time 7020, User A, Process P1 Finished!
+7085 [Thread-4] INFO  FS  - Time 7050, User B, Process P2 Started!
+9320 [Thread-4] INFO  FS  - Time 9060, User B, Process P2 Paused.
+9332 [Thread-3] INFO  FS  - Time 9060, User A, Process P0 Resumed.
+11648 [Thread-3] INFO  FS  - Time 11060, User A, Process P0 Finished!
+11660 [Thread-4] INFO  FS  - Time 11080, User B, Process P2 Resumed.
+13990 [Thread-4] INFO  FS  - Time 13070, User B, Process P2 Paused.
+14026 [Thread-4] INFO  FS  - Time 13100, User B, Process P2 Resumed.
+16427 [Thread-4] INFO  FS  - Time 15090, User B, Process P2 Finished!
+18713 [Thread-0] INFO  FS  - Scheduler Stopped!
+18726 [Thread-1] INFO  FS  - Clock Stopped!
+18726 [main] INFO  FS  - Fair Share Scheduling Complete!
+0    [main] INFO  FS  - User A Has 2 Processes:
+5    [main] INFO  FS  - Process Name: P0 => Ready Time: 4, Service Time: 3
+6    [main] INFO  FS  - Process Name: P1 => Ready Time: 1, Service Time: 5
+6    [main] INFO  FS  -  
+6    [main] INFO  FS  - User B Has 1 Processes:
+6    [main] INFO  FS  - Process Name: P2 => Ready Time: 5, Service Time: 6
+6    [main] INFO  FS  -  
+7    [main] INFO  FS  - Fair Share Scheduling Started!
+8    [Thread-0] INFO  FS  - Scheduler Started!
+10   [Thread-1] INFO  FS  - Clock Started!
+11   [Thread-2] INFO  FS  - Time 1000, User A, Process P1 Started!
+4719 [Thread-2] INFO  FS  - Time 5010, User A, Process P1 Paused.
+4732 [Thread-3] INFO  FS  - Time 5020, User A, Process P0 Started!
+5949 [Thread-3] INFO  FS  - Time 6030, User A, Process P0 Paused.
+5961 [Thread-2] INFO  FS  - Time 6040, User A, Process P1 Resumed.
+7149 [Thread-2] INFO  FS  - Time 6990, User A, Process P1 Finished!
+7183 [Thread-4] INFO  FS  - Time 7040, User B, Process P2 Started!
+9597 [Thread-4] INFO  FS  - Time 9040, User B, Process P2 Paused.
+9632 [Thread-3] INFO  FS  - Time 9080, User A, Process P0 Resumed.
+11910 [Thread-3] INFO  FS  - Time 11040, User A, Process P0 Finished!
+11958 [Thread-4] INFO  FS  - Time 11090, User B, Process P2 Resumed.
+14232 [Thread-4] INFO  FS  - Time 13080, User B, Process P2 Paused.
+14252 [Thread-4] INFO  FS  - Time 13100, User B, Process P2 Resumed.
+16487 [Thread-4] INFO  FS  - Time 15100, User B, Process P2 Finished!
+18808 [Thread-0] INFO  FS  - Scheduler Stopped!
+18819 [Thread-1] INFO  FS  - Clock Stopped!
+18820 [main] INFO  FS  - Fair Share Scheduling Complete!
